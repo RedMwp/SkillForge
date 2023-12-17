@@ -1,0 +1,40 @@
+.courses {
+  margin-top: 10vh;
+  max-width: 97vw;
+}
+
+.course {
+  display: flex;
+  overflow: hidden;
+  width: 30vw;
+  height: 25vh;
+  background: #262626;
+  border-radius: 4pt;
+  align-items: center;
+  box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
+  position: relative; /* Added to position the .gradient relative to the .course */
+}
+
+.course:hover {
+  background: #3A31B4;
+}
+
+.course p {
+  margin: auto;
+  font-size: 1.2em;
+  letter-spacing: 0.6px;
+  z-index: 2;
+}
+
+.course .gradient {
+  width: 40vw;
+  height: 160px; /* Adjusted height to be half of the course */
+  top: -50%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(#52e38a, #3A31B4);
+  filter: blur(5px);
+  opacity: 0.8; /* Adjusted opacity for transparency */
+}
+⁸

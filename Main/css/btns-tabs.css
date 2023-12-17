@@ -62,7 +62,7 @@
     padding:10px;
     color: #EEE9EE;
     border-radius: 4pt;
-    box-shadow: 1px 4px 5px #000000;
+    box-shadow: 1px 4px 5px rgba(0,0,0,0.5);
 }
 .sf-content-nav input:hover{
     background: #262626;
