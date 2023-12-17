@@ -1,0 +1,8 @@
+CACHE MANIFEST
+/Main/js/responsive.js
+/Main/css/layout.css
+/Main/index.html
+
+FALLBACK:
+/ /Main/offline.html
+
