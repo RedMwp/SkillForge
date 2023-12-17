@@ -15,6 +15,9 @@
     letter-spacing: .4px;
     
 }
+.tab-mini:hover{
+  background-color:#262626 ;
+}
 .icon{
     height: 24px;
     width: 24px;
@@ -55,7 +58,14 @@
     
 }
 .sf-content-nav input{
-    background: none;
+    background: #262626;
+    padding:10px;
+    color: #EEE9EE;
+    border-radius: 4pt;
+    box-shadow: 1px 4px 5px #000000;
+}
+.sf-content-nav input:hover{
+    background: #262626;
     padding: 0 10px;
     color: #EEE9EE;
     
@@ -99,7 +109,7 @@
 button{
     transition: all .3s ease-in-out;
 }
-button:hover , .sf-content-nav form:hover, .sf-content-nav form:focus{
+button:hover ,  form:focus{
     background: none;
     transform: translateY(-3px);
     border-left:1px solid #3A31B4;
