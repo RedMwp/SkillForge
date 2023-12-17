@@ -1,0 +1,16 @@
+{
+  "name": "SkillForge",
+  "short_name": "SkillForge",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "a site that helps you build your skills",
+  "icons": [
+    {
+      "src": "images/touch/homescreen48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+
+  ]
+}
