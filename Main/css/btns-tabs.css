@@ -47,9 +47,8 @@
     margin-right: 0px;
 }
 .sf-content-nav form{
-    height: 65%;
-    width: 50%;
-    max-width: 230px;
+    
+  
     background: none;
     display: flex;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
@@ -59,25 +58,32 @@
 }
 .sf-content-nav input{
     background: #262626;
-    padding:10px;
+    padding:1em;
     color: #EEE9EE;
     border-radius: 4pt;
     box-shadow: 1px 4px 5px rgba(0,0,0,0.5);
+    transition: all 0.1235s;
 }
-.sf-content-nav input:hover{
+.sf-content-nav input:hover, input:focus{
     background: #262626;
-    padding: 0 10px;
+    padding: 1.2em;
+    
     color: #EEE9EE;
     
 }
-.sf-content-nav form button{
-    background: none;
-    border-radius: 8px;
+.search-btn{
+    background: inherit;
+    border-radius: 4pt;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-    width: 40px;
-    padding: 2px;
+    width: 10vw;
     font-size: 0;
     border:1px solid #EEE9EE;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    transition: all .2s ease-in-out;
+    margin-left: 3px;
 }
 .sf-content-nav button:hover{
     background: #3A31B4;
@@ -102,20 +108,27 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
     width: 40px;
     height: 30px;
-    padding: 2px;
+    
     font-size: 0;
     border:1px solid #EEE9EE;
 }
-button{
-    transition: all .3s ease-in-out;
+form{
+  display: flex;
+  gap:2px;
+  justify-content: space-between;
+  
 }
-button:hover ,  form:focus{
+.search-btn{
+  
+    
+}
+.search-btn:hover ,  form:focus{
     background: none;
-    transform: translateY(-3px);
+    transform: translateY(-1px);
     border-left:1px solid #3A31B4;
 }
 .sf-content-nav form:hover button{
-    transform: translateY(-4px);
+    transform: translateY(-2px);
     background: #3A31B4;
 }
 /*====menu=btn==*/
