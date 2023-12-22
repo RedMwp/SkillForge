@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -7,66 +7,76 @@
   <title>Skill Forge</title>
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/btns-tabs.css">
-  <link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/index.css" type="text/css" media="all">
 </head>
 
 <body>
 
-<div class="sf-container">
-<!-----side---nav--->
-<div class="sf-nav-container">
-<div class="sf-logo-container">
-<div class="header-tab">
-<h1>SkillForge</h1>
-</div>
-<button class=" icon-btn-trpt" id="close-btn"> <img src="icons/cancel.svg" />  close</button>
-</div>
-<div class="sf-main-nav-content">
-<div class="sf-home-items">
+  <div class="site-container">
+    <!-- Side Navigation -->
+    <div class="side-nav-container">
+      <div class="logo-container">
+        <div class="header-tab">
+          <h1>SkillForge</h1>
+        </div>
+        <button class="icon-btn-trpt" id="close-btn">
+          <img src="icons/cancel.svg" alt="close icon"> Close
+        </button>
+      </div>
+      <div class="main-nav-content">
+        <div class="home-items">
 
-<ul>
-<h1 class="min-heading">Learn</h1>
-<li class="tab-mini"><img src="icons/home.svg" alt="icon" class="icon">Explore</li>
-<li class="tab-mini"><img src="icons/folder.svg" alt="icon" class="icon">Saved </li>
-<li class="tab-mini"><img src="icons/school.svg" alt="icon" class="icon">Courses</li>
-</ul>
+          <ul>
+            <h1 class="section-heading">Learn</h1>
+            <li class="tab-mini"><img src="icons/home.svg" alt="icon" class="icon">Explore</li>
+            <li class="tab-mini"><img src="icons/folder.svg" alt="icon" class="icon">Saved</li>
+            <li class="tab-mini"><img src="icons/school.svg" alt="icon" class="icon">Courses</li>
+          </ul>
 
-<ul>
-<h1 class="min-heading">Menu</h1>
-<li class="tab-mini"><img src="icons/code.svg" alt="icon" class="icon">Editor</li>
-<li class="tab-mini"><img src="icons/view.svg" alt="icon" class="icon">Showcase </li>
-<li class="tab-mini"><img src="icons/settings.svg" alt="icon" class="icon">Settings</li>
-</ul>
-</div>
-</div>
-<div class="sf-nav-foot">
+          <ul>
+            <h1 class="section-heading">Menu</h1>
+            <li class="tab-mini"><img src="icons/code.svg" alt="icon" class="icon">Editor</li>
+            <li class="tab-mini"><img src="icons/view.svg" alt="icon" class="icon">Showcase</li>
+            <li class="tab-mini"><img src="icons/settings.svg" alt="icon" class="icon">Settings</li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-footer">
+        <!-- Add any footer content here if needed -->
+      </div>
+    </div>
 
-</div>
-</div>
-<div class="sf-main-content-container">
-<div class="sf-content-nav">
-<button class="icon-btn-trpt" id="main-menu-btn"><img src="icons/menu.svg"> menu icon</button> <form action="">
-<input type="text" id="search" placeholder="Search">
-<button class="search-btn"> <img src="icons/search.svg"> search</button>
-</form>
-<button class="icon-btn"><img src="icons/icon-sun.svg"> theme</button>
-</div>
-<div id="sf-main-content">
-<div class="courses">
-<div class="course">
-<div class="gradient"></div>
-<p>
-HTML
-</p>
-</div>
-</div>
+    <!-- Main Content Container -->
+    <div class="main-content-container">
+      <div class="content-nav">
+        <button class="icon-btn-trpt" id="main-menu-btn">
+          <img src="icons/menu.svg" alt="menu icon"> Menu
+        </button>
+        <form action="">
+          <input type="text" id="search" placeholder="Search">
+          <button class="search-btn">
+            <img src="icons/search.svg" alt="search icon"> Search
+          </button>
+        </form>
+        <button class="icon-btn">
+          <img src="icons/icon-sun.svg" alt="theme icon"> Theme
+        </button>
+      </div>
+      <div id="main-content">
+        <div class="courses">
+          <div class="course">
+            <div class="gradient"></div>
+            <p>
+              HTML
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-</div>
-
-</div>
-</div>
-
-<script src="js/btn-int.js"></script>
+  <!-- JavaScript -->
+  <script src="js/btn-int.js"></script>
 </body>
 
 </html>
