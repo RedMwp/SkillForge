@@ -27,14 +27,13 @@
 }
 
 .course .gradient {
-  width: 40vw;
+  width: 200px;
   height: 160px; /* Adjusted height to be half of the course */
   top: -50%;
   border-radius: 50%;
   position: absolute;
   z-index: 1;
   background: linear-gradient(#52e38a, #3A31B4);
-  filter: blur(5px);
+  filter: blur(10px);
   opacity: 0.8; /* Adjusted opacity for transparency */
 }
-⁸

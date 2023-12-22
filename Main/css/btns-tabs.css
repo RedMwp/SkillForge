@@ -75,7 +75,7 @@
     background: inherit;
     border-radius: 4pt;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-    width: 10vw;
+    width: 5vw;
     font-size: 0;
     border:1px solid #EEE9EE;
     padding-left: 2em;
@@ -151,6 +151,9 @@ form{
     }
     #close-btn{
         display:block;
+    }
+    .search-btn{
+      width: 10vw;
     }
     
 }
